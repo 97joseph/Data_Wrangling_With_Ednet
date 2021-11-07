@@ -33,6 +33,21 @@ taking into account the difficulty level as derived from Table 2. Describe the p
 compute the metrics. Be sure to be specific so that interns can use your pseudo code to
 implement the metrics without much trouble.
 BONUS (10 points), implement the proposed metrics and plot a histogram of the metrics
+
+
+#EdNet dataset contains various features of student actions such as which learning material he have consumed, response, how much time he have spent for solving a given question or reading through expert’s commentary. And EdNet have some properties which is introduced following.
+
+1. Large scale
+EdNet is composed of a total of 131,441,538 interactions collected from 784,309 students of Santa since 2017. Each student has generated 441.20 interactions while using Santa on average. EdNet, based on those interactions, makes researchers possible to access to a large-scale real-world ITS data. Moreover, Santa provides a total 13,169 problems and 1,021 lectures tagged with 293 types of skills, and each of them has been consumed 95,294,926 times and 601,805 times, respectively. To the best of our knowledge, this is the largest dataset in education available to the public in terms of the total number of students, interactions, and interaction types.
+
+2. Diversity
+EdNet offers the most diverse set of interactions among all existing ITS data. The set of behaviors directly related to learning is also richer than other datasets, as EdNet includes learning activities such as reading explanations and watching lectures not provided by others. Such diversity enables researchers to analyze students from various perspectives. For example, purchasing logs may help to analyze student's engagement for learning. Also, contents information table is provided separately.
+
+3. Hierarchy
+EdNet has a hierarchical structure of different data points. To provide various kinds of actions in a consistent and organized manner, EdNet offers the datasets in four different levels each named KT1, KT2, KT3 and KT4. As the level of the dataset increases, the number of actions and types of actions involved also increase. The details and descriptions of each dataset is described below.
+
+4. Multi-platform
+In the age where students have access to various devices spanning from personal computers to smartphones and AI speakers, it is inevitable for ITSs to offer the access from multiple platforms. Accordingly, Santa is a multi-platform system available in iOS, Android and Web and EdNet contains data points gathered from both mobile and desktop.This allows the study of AIEd models suited for future multi-platform ITSs, utilizing the data collected from different platforms in a consistent manner.
 across all users (or subset of users of your choices).
 4. (30 points) Pick a user with a reasonable amount of activity (you will define the
 “reasonableness” and specify the selection criteria) and create a dashboard that consists
